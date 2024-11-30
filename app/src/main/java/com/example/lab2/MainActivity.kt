@@ -28,7 +28,7 @@ class MainActivity: AppCompatActivity() {
                 val result = calculateSeriesSum(epsilon)
                 resultView.text = result
             } else {
-                resultView.text = "Пожалуйста, введddите допустимое значение для порога."
+                resultView.text = "Пожалуйста, введите допустимое значение для порога."
             }
         }
     }
